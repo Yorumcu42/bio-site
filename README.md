@@ -1,0 +1,66 @@
+[index (2).html](https://github.com/user-attachments/files/27456086/index.2.html)
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emre | Cyber</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            color: #00ff00;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+            color: #00ff00;
+            text-decoration: none;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #00ff00;
+            color: black;
+        }
+
+        .cursor {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h1>root@emre:~$ <span class="cursor">|</span></h1>
+    <p>Cyber Security • Pentest • Learning</p>
+
+   <a href="https://www.instagram.com/h.emre_ce?igsh=eWpxZGtqMHE5M2t6" target="_blank">Instagram</a>
+<a href="https://x.com/ec4757923_emre" target="_blank">Twitter (X)</a>
+<a href="https://github.com/Yorumcu42" target="_blank">GitHub</a>
+ 
+</div>
+
+</body>
+</html>
